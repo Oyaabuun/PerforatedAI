@@ -31,7 +31,7 @@ Install dependencies
 pip install -r requirements.txt
 
 Its mandatory to train the baseline first before running the dendritic script as that will generate the checkpoints/ folder needed in the dendritic script.
-So 1st run the train_baseline.py and  train_baseline_compressed.py to geenrate the required checkpoints for dendritic. 
+So 1st run the train_baseline.py and  train_baseline_compressed.py to generate the required checkpoints for dendritic. 
 # Train baseline(Please trigger these runs first before moving to next step)
 python src/training/train_baseline.py
 python src/training/train_baseline_compressed.py
